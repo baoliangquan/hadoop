@@ -1,9 +1,7 @@
-package com.kafka.stormDemo;
+package com.storm.demo;
 
 import backtype.storm.Config;
 import backtype.storm.StormSubmitter;
-import backtype.storm.generated.AlreadyAliveException;
-import backtype.storm.generated.InvalidTopologyException;
 import backtype.storm.generated.StormTopology;
 import backtype.storm.topology.TopologyBuilder;
 

@@ -1,15 +1,15 @@
-package com.kafka.stormDemo;
-
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Map;
-import java.util.UUID;
+package com.storm.demo;
 
 import backtype.storm.task.TopologyContext;
 import backtype.storm.topology.BasicOutputCollector;
 import backtype.storm.topology.OutputFieldsDeclarer;
 import backtype.storm.topology.base.BaseBasicBolt;
 import backtype.storm.tuple.Tuple;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Map;
+import java.util.UUID;
 
 public class SuffixBolt extends BaseBasicBolt{
 

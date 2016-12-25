@@ -1,4 +1,4 @@
-package com.kafka.stormDemo;
+package com.storm.demo;
 
 import backtype.storm.topology.BasicOutputCollector;
 import backtype.storm.topology.OutputFieldsDeclarer;
